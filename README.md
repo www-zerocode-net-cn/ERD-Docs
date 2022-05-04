@@ -1,44 +1,78 @@
 # erd-docs
 
 #### 介绍
+
 erd门户和文档
 
-#### 软件架构
-软件架构说明
+#### 软件说明
+使用的技术栈
+
+	--react
+
+	--js
+
+	--md
+
+软件包说明
+
+
+![](../static/img/guide/5.png)
+
+主要配置和文件：
+
+
+	--sidebars.js:菜单展示
+	
+	--docs: 文档文件md文件
+	
+	--blog：博客md文件
+	
+	--src： 源码一般不需要调整
+	
+	--static： 静态图片，博客和文档文件展示图片统一存放处
+	
+	--packjson.json/package-lock.json 依赖库清单
+
+
+	ps:每次调整调整这些文档即可
 
 
 #### 安装教程
 
 1.  安装依赖包
-	
+
 	npm install
+
+	![](../static/img/guide/1.png)
+
+
 
 2.  启动
 
 	npm run satrt
+
+	![](../static/img/guide/2.png)
+
 3.  打包
-	
+	打包放入服务器目录，配置nginx即可访问
+
 	npm run build
+
+	![](../static/img/guide/3.png)
+
+
+	![](../static/img/guide/4.png)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+服务器安装
 
-#### 参与贡献
+	nodejs
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+	ps:最好是nodejs 12+以上
+
+	具体操作参考上面
+
+	安装教程
 
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
