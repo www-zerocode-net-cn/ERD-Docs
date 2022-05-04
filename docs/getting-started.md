@@ -3,120 +3,154 @@ title: ERD Online说明
 sidebar_position: 1
 ---
 
-## 官方在线预览地址
-ERD Online 旧版：
-[**https://www.java2e.com/**](https://www.java2e.com/)
+![](https://img-blog.csdnimg.cn/img_convert/6add5a7520e4744c2d879c9c955d40db.png)
 
-ERD Online 新版：
-[**https://www.zerocode.net.cn/**](https://www.zerocode.net.cn/)
+# ERD Online可以帮你做...
+📦 开箱即用，将注意力集中在数据结构设计上
 
-`新版本扫码登录的时候，第一次扫码失败的，再扫一次就登进去了。目前还有点小问题，在解决中`
+📋 快速复制已有表结构、json 生成表
 
-## 新版本介绍及功能规划
+🏷 在线管理表结构，支持正向向数据库执行
+
+🎨 将已有的数据库结构解析到软件中管理
+
+📱 支持多种数据库连接在线管理（Mysql、Oracle、DB2、SqlServer、PostGreSql）
+
+📡 每个需求与变动，都可以生成版本，每个版本之间可以比对差异
+
+🎉 可将所有表结构，自动生成 word、html、md 文档，便于线下流动
+。。。
+
+## 甚至可以帮你定义业务领域的数据词典....
+## 核心功能
+- 元数据解析
+- 元数据管理
+- 多数源支持（mysql、oracle、sqlserver、postgresql）
+- 多数源同步
+- 在线导出sql（全量或差量）
+- 在线执行sql
+- 数据血缘管理
+- 团队协作
+- 元数据导出（word、pdf、html、markdown）
+- 官方市场一键导入
+- 低代码平台（待建设）
+    - BI
+    - 大屏
+    - 低代码平台
+
+
+
+## 官方在线预览地址：
+
+- **新版**：[https://erd.zerocode.net.cn/](https://www.zerocode.net.cn/)
+- 旧版：[https://www.java2e.com/](https://www.java2e.com/)
+
+
+## 新版本介绍及功能规划视频介绍
+
 [**20220311：ERD ONLINE新版本介绍及功能规划**](https://www.bilibili.com/video/BV113411W7bx/)
+
 
 [**20220311：20220317：ERD ONLINE功能进度演示、头脑风暴**](https://www.bilibili.com/video/BV1tu411z7bf/)
 
-## 交流群
-
-### 微信群
 
 
-![](../static/img/weixin.png)
-
-## 走过路过，点个Star再过,爱你哦！
-
-### English Documentation
 
 
-See the [English Documentation](https://gitee.com/MARTIN-88/erd-online/blob/master/README.md) for document in English...
+### 团队文档相关
+- UI设计文档: [https://js.design/f/3iRGn_?p=4rCfiHWVrO](https://js.design/f/3iRGn_?p=4rCfiHWVrO)
 
-##版本规划
-
-###v2.0.4
-
-`用户分配角色、角色配置权限`
-
-###v2.0.5
-
-`通过权限控制页面菜单、以及按钮权限`
-
-###v2.0.6
-
-`操作日志审计`
-
-###v3.0.0
-
-`自动保存`
-
-###v3.0.1
-
-`在线多人协作`
-
-###v3.0.2
-
-`通过权限控制sql操作权限，进一步实现sql审批`
+### 开发进度说明
 
 
-## 准备
-
-### 安装 docker
-	
-	https://www.runoob.com/docker/centos-docker-install.html
-	
-### 安装 docker-compose
-	
-	https://www.runoob.com/docker/docker-compose.html
-
-### 配置host
-
-	在ui所在的服务器配置host
-	127.0.0.1 erd-online
+| 模块功能 | 说明 | 开发完成时间|
+| -------- | -------- | -------- |
+| 核心功能     | 数据建模，导出，等等     | 2022-5-1     |
+| 团队协作     | 多团队协作     | 排期    |
+| 关系图     | 数据血缘关系   | 排期    |
+| sql在线运行     | 数据库在线sql运行审计| 排期    |
 
 
-## 安装运行
+### 版本规划
 
-### 启动服务端
-	配套服务端代码：https://gitee.com/MARTIN-88/erd-apis
-
-	下载项目
-		# git clone https://gitee.com/MARTIN-88/erd-online.git erd
-
-		# cd erd
-
-	
-	一键启动
-
-		# docker-compose up -d
-
-### 启动前端
-
-	安装依赖
-		# yarn install
-
-	运行
-		# yarn start
-		
-	打开 http://localhost:3000
-
-## 打包桌面程序包
-### Windows
-	# yarn package-win
-
-### MAC
-	# yarn package-mac
-
-### Linux
-	
-	# yarn package-linux
+- **v4.0.0**
+    - 全新改版，核心功能完成，已发版
+- **v4.1.0**
+    - 增加关系图
+    - 删除、修改项目
+- **v5.0.0**
+    - 发布企业级贴心功能，增加金融级安全机制
 
 
-至此，web、Windows、MAC、Linux多端都可以一起用了，开心吧！！
+##  先睹为快
+### 登录页
+![在这里插入图片描述](https://img-blog.csdnimg.cn/818f1279fd044fe6968c3484fac42889.png)
+### 工作台
+![在这里插入图片描述](https://img-blog.csdnimg.cn/762de0fb3c294a058ed132004d4285f9.png)
+### 工作页
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d4fd86babf4b463cb2c191c07c3a464b.png)
 
-## 代码仓库
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f04db22e62414a948ba8c8869a022fc4.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/e9c93f628e714fbf9645a3e17c136a23.png)
 
-	Github : https://github.com/whaty/MARTIN-ERD.git
-	Gitee: https://gitee.com/MARTIN-88/erd-online.git
+### 生成文档
+![在这里插入图片描述](https://img-blog.csdnimg.cn/30bc02e413b149eb98f08651f8ff7931.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c98cb52301da4bc8b11885d5b3214799.png)
+
+
+## 案例说明
+> 某公司涉及多套关系数据库，拥有1000多个表，涉及将近10000多个字段，一套良好的建模类型血缘关系展示，可以快速的让业务人员，营销，运维，产品，后端，前端，大数据，BI，数据分析人员 快速熟悉数据库架构以及字段类型意图。根据前端展示快速理解业务意图，变相极大的节省公司成本
+
+- 某公司BI人员入职，作为一个sqlboy，针对以上10000多字段，没有管理系统的前提下，需要去梳理数据库字段文档，理解字段意图，理解公司业务架构，最后输出BI报表，至少存在1个月的沉默成本。
+- 公司新入职产品经理，涉及多个系统架构需求，需要理解老系统无数表字段情况下，才能对系统做新功能需求更新
+- 一套数据库有上千个表的情况下，要让公司研发能高效调动调配处理开发，一个程序员理解系统表跟字段需要花费非常长的时间，系统可以节省研发数倍的成本。
+- 公司内部多套数据库进行字段以及表新增，需要领导进行审计放行，该平台可以统一化管理数据库，并进行审计放行，且存在历史版本回溯比对。
+
+
+## 联系我们
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***微信群***   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***社区小程序***
+
+&nbsp;![在这里插入图片描述](https://img-blog.csdnimg.cn/cd061ef5aabe499da197fcdbf5115902.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![在这里插入图片描述](https://img-blog.csdnimg.cn/8ffb80270f8347ce828dab4e1ef692ae.png)
+
+
+
+## 加入我们
+#### 开发组人员配置
+
+我们预想的配置是：
+1、后端 java 开发 2-3 名；
+2、前端 raect 开发 2-3 名；
+3、设计师 1 名；
+4、运营相关人员 1-2 名；
+5、测试人员 1 名；
+
+
+> 目前已经有react+java全栈(作者自己)，设计师一名，最近添加一名vue + java 全栈
+
+#### 开发组人员技术期望
+
+- 期望一：后端 java 开发人员有 2 年以上的后端开发经验；
+- 期望二：前端 react 开发有 1 年以上的 react 使用经验；
+- 期望三：设计师有 1 年以上的平面或应用产品设计经验；
+- 期望四：运营相关人员有 1 年以上的运营经验；
+- 期望五：测试人员有 1 年以上的自动化测试经验；
+
+> 当然，也欢迎各个技术栈入门工程师，我们提供全套入门指导
+
+#### 开发组人员时间期望
+- 期望一：每周工作日晚上至少有 2 天能够用于开发；
+- 期望二：周末至少有 1 天能够用于开发；
+- 期望三：出现紧急问题时，最好能够在当天调整时间处理；
+#### 收益相关问题
+这是一个长线运营的项目，所以前期是不会出经济的。我们合作的方式也是技术合作，没有薪资。所以感兴趣的朋友，也要**慎重考虑**。
+
+团队的主要收入是,企业商业授权、定制开发、部署服务等，如果运作得好，后期是会融资的。具体的人员分工和分成具体再定，目前没有明确的比例。
+
+如果你对这个项目感兴趣，同时也比较符合上面的期望，可以联系作者，添加上方添加微信群后，直接@群主。
+
+
+
 
 ## 软件说明博客
 

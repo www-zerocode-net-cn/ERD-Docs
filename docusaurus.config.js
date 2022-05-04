@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 html: `
-                    <img src="img/wechat-qr.jpg" alt="零代社区小程序" />
+                    <img src="https://portal.zerocode.net.cn/img/wechat-qr.jpg" alt="零代社区小程序" />
                 `,
               },
             ],
@@ -122,7 +122,7 @@ const config = {
             items: [
               {
                 html: `
-                    <img src="img/concat-qr.jpg" alt="微信群" />
+                    <img src="https://portal.zerocode.net.cn/img/concat-qr.jpg" alt="微信群" />
                 `,
               },
             ],
