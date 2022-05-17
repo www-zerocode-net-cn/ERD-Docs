@@ -23,7 +23,7 @@ function HomepageHeader() {
       </div>
 
       <div className={styles.buttons}>
-        <Link className="button button--secondary button--lg" to="/docs/getting-started">
+        <Link className="button button--secondary button--lg" to="https://erd.zerocode.net.cn">
           开始了解使用!
         </Link>
       </div>

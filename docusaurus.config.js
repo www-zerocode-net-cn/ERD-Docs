@@ -59,6 +59,11 @@ const config = {
           },
           { to: '/blog', label: '博客', position: 'left' },
           {
+            href: 'https://erd.zerocode.net.cn',
+            label: '登录ERD',
+            position: 'right',
+          },
+          {
             href: 'https://www.zerocode.net.cn',
             label: '社区',
             position: 'right',
