@@ -1,9 +1,7 @@
 ---
-title: ERD Online说明
+title: ERD Online
 sidebar_position: 1
 ---
-
-![](https://img-blog.csdnimg.cn/img_convert/6add5a7520e4744c2d879c9c955d40db.png)
 
 # ERD Online可以帮你做...
 📦 开箱即用，将注意力集中在数据结构设计上
@@ -22,23 +20,6 @@ sidebar_position: 1
 。。。
 
 ## 甚至可以帮你定义业务领域的数据词典....
-## 核心功能
-- 元数据解析
-- 元数据管理
-- 多数源支持（mysql、oracle、sqlserver、postgresql）
-- 多数源同步
-- 在线导出sql（全量或差量）
-- 在线执行sql
-- 数据血缘管理
-- 团队协作
-- 元数据导出（word、pdf、html、markdown）
-- 官方市场一键导入
-- 低代码平台（待建设）
-    - BI
-    - 大屏
-    - 低代码平台
-
-
 
 ## 官方在线预览地址：
 
@@ -52,8 +33,6 @@ sidebar_position: 1
 
 
 [**20220311：20220317：ERD ONLINE功能进度演示、头脑风暴**](https://www.bilibili.com/video/BV1tu411z7bf/)
-
-
 
 
 
@@ -80,25 +59,7 @@ sidebar_position: 1
     - 删除、修改项目
 - **v5.0.0**
     - 发布企业级贴心功能，增加金融级安全机制
-
-
-##  先睹为快
-### 登录页
-![在这里插入图片描述](https://img-blog.csdnimg.cn/818f1279fd044fe6968c3484fac42889.png)
-### 工作台
-![在这里插入图片描述](https://img-blog.csdnimg.cn/762de0fb3c294a058ed132004d4285f9.png)
-### 工作页
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d4fd86babf4b463cb2c191c07c3a464b.png)
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/f04db22e62414a948ba8c8869a022fc4.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e9c93f628e714fbf9645a3e17c136a23.png)
-
-### 生成文档
-![在这里插入图片描述](https://img-blog.csdnimg.cn/30bc02e413b149eb98f08651f8ff7931.png)
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c98cb52301da4bc8b11885d5b3214799.png)
-
-
+  
 ## 案例说明
 > 某公司涉及多套关系数据库，拥有1000多个表，涉及将近10000多个字段，一套良好的建模类型血缘关系展示，可以快速的让业务人员，营销，运维，产品，后端，前端，大数据，BI，数据分析人员 快速熟悉数据库架构以及字段类型意图。根据前端展示快速理解业务意图，变相极大的节省公司成本
 
@@ -157,4 +118,5 @@ sidebar_position: 1
 [**ERD Online 免费在线数据库建模工具**](https://blog.csdn.net/qq_30054961/category_10551233.html)
 
 
+![](https://img-blog.csdnimg.cn/img_convert/6add5a7520e4744c2d879c9c955d40db.png)
 

@@ -57,7 +57,8 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          { to: '/blog', label: '博客', position: 'left' },
+          // { to: '/blog', label: '博客', position: 'left' },
+
           {
             href: 'https://erd.zerocode.net.cn',
             label: '登录ERD',
@@ -72,8 +73,20 @@ const config = {
             href: 'https://gitee.com/MARTIN-88/erd-online',
             label: 'Gitee',
             position: 'right',
+            className: "header-icon-link header-github-link",
+
           },
         ],
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      announcementBar: {
+        id: 'supportus',
+        content:
+            '⭐️ If you like ERD Online, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://gitee.com/MARTIN-88/erd-online">Gitee</a>! ⭐️',
       },
       footer: {
         style: 'dark',
@@ -86,13 +99,10 @@ const config = {
                 to: '/docs/getting-started',
               },
               {
-                label: '高级应用',
-                to: '/docs/advanced-usage',
+                label: '快速入门',
+                to: '/docs/quick-start',
               },
-              // {
-              //   label: '开发者',
-              //   to: '/docs/development',
-              // },
+
               {
                 label: 'FAQ',
                 to: '/docs/faq',
