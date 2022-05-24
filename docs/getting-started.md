@@ -23,7 +23,7 @@ sidebar_position: 1
 
 ## 官方在线预览地址：
 
-- **新版**：[https://erd.zerocode.net.cn/](https://www.zerocode.net.cn/)
+- **新版**：[https://erd.zerocode.net.cn/](https://erd.zerocode.net.cn/)
 - 旧版：[https://www.java2e.com/](https://www.java2e.com/)
 
 
