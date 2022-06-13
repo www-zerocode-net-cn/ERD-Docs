@@ -30,10 +30,12 @@ const sidebars = {
                 //'quick-start/concepts',
                 'quick-start/try-out-install',
                 'quick-start/compatibility',
+                'quick-start/jdbc',
                 'quick-start/a-basic-project',
             ]
         },
-
+        'benefit-profit',
+        'changelog',
         'faq',
 
 
