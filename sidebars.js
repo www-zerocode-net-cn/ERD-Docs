@@ -34,6 +34,7 @@ const sidebars = {
                 'quick-start/a-basic-project',
             ]
         },
+        'comparison',
         'benefit-profit',
         'changelog',
         'faq',
